@@ -9,6 +9,8 @@ const Category = ({ category, categories }) => {
     metaDescription: `All ${category.attributes.name} articles`,
   }
 
+  console.log("test")
+
   return (
     <Layout categories={categories.data}>
       <Seo seo={seo} />
